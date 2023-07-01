@@ -1,0 +1,11 @@
+#ifndef BASE_STRUCTURES_CLASS_H
+#define BASE_STRUCTURES_CLASS_H
+
+enum enumCoordComponent {
+    COORD_COMPONENT_NONE,
+    COORD_COMPONENT_X,
+    COORD_COMPONENT_Y,
+    COORD_COMPONENT_Z
+};
+
+#endif

@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwgy3xj1clrqb"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_gah2s"]
+[ext_resource type="Texture2D" uid="uid://cytbdtmnpd67x" path="res://Assets/Images/gdextension-ferris.png" id="2_eedes"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_gah2s")
+
+[node name="ImageRipper" type="ImageRipper" parent="."]
+offset_left = 8.0
+offset_top = 120.0
+offset_right = 69.0
+offset_bottom = 160.0
+
+[node name="ParticlesPalace" type="ParticlesPalace" parent="."]
+visible = false
+position = Vector2(-131.753, 214.507)
+
+[node name="NomadDisplay" type="NomadDisplay" parent="."]
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(461, -76)
+texture = ExtResource("2_eedes")
+offset = Vector2(120, 230)
